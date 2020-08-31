@@ -1,0 +1,20 @@
+nav {
+    height: 2em;
+    text-align: right;
+    padding: 1em 5em    ;
+    margin-bottom: 2em;
+    color: white;
+}
+
+.is-active {
+    color: #B98D00;
+}
+
+nav .fa {
+    font-size: 1.5em;
+}
+
+nav a {
+    color: white;
+    margin-left: 1em;
+}

@@ -1,0 +1,17 @@
+
+.movie-container h2 {
+    color: white;
+    margin: 0em 5em;
+}
+
+.movie-container hr {
+    margin: 1em 4em;
+    color: grey;
+}
+
+.movie-item-container {
+    display: grid;
+    grid-template-columns:  repeat(auto-fill, 15em);
+    grid-gap: 1em;
+    justify-content: center;
+}

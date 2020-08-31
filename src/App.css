@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "TTRounds Bold";
+  src: url("./assets/fonts/TTRounds/TTRounds-Bold.ttf");
+}
+
+@font-face {
+  font-family: "TTRounds Regular";
+  src: url("./assets/fonts/TTRounds/TTRounds-Regular.ttf");
+}
+
+html,
+body {
+  background-color: #222e4d;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-weight: 100;
+  overflow: overlay;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body #root {
+  height: 100%;
+}
+
+body .App {
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  font-family: "TTRounds Regular";
+}
+
+* > .loader-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+/* 
+@media screen and (max-width: 800px){
+  body .App {
+    width: 100%;
+  }
+}    */

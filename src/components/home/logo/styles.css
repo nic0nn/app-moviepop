@@ -1,0 +1,15 @@
+.app-logo {
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+}
+
+.app-logo img {
+    height: 20em;
+}
+
+.app-logo h2 {
+  font-family: "TTRounds Bold";
+  font-weight: 300;
+  color: #B98D00;
+}

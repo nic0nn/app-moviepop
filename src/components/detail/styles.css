@@ -1,0 +1,23 @@
+.movie-info {
+    color: white;
+}
+
+.movie-info h2, .movie-info h3 {
+    text-align: center;
+}
+.movie-info span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.movie-info .fa:hover {
+  color: #B98D00;
+}
+.movie-info .image-container {
+    width: 30em;
+    height: 30em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin: 0 auto;
+}

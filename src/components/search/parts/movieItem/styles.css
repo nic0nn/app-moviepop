@@ -1,0 +1,18 @@
+.movie-item {
+  line-height: 0;
+}
+
+.movie-item .image-container {
+  width: 15em;
+  height: 15em;
+  background-size: cover;
+}
+
+.movie-item p {
+  color: white;
+  text-align: right;
+}
+
+.movie-item a {
+    text-decoration: none;
+}
